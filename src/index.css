@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+
+    .mask-shadow {
+
+        transform: rotateX(75deg);
+        
+    }
+
+    .line {
+
+        clip-path: polygon(65% 0, 100% 0%, 35% 100%, 0% 100%);
+    }
+}
